@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagementApi.Shared
 {
-    public class Department
+    public enum Gender
     {
-        public int DepartmentId { get; set; }
-        public string DepartmentName { get; set; }
+        Male,
+        Female,
+        Other
     }
 }
